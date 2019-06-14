@@ -1,0 +1,22 @@
+{
+  "name": "docker-compose-converter",
+  "version": "0.1.0",
+  "description": "Convert docker run/create commands to docker-compose.yml files.",
+  "main": "src/index.js",
+  "keywords": [
+    "docker",
+    "run",
+    "create",
+    "to",
+    "docker-compose",
+    "converter",
+    "docker-compose.yml",
+    "convert"
+  ],
+  "author": "Fabian Bucher <git@fabianbucher.de>",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "js-yaml": "^3.13.1"
+  }
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "name": "add-host",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "alias": "a",
+    "name": "attach",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "blkio-weight",
+    "type": "number"
+  },
+  {
+    "name": "blkio-weight-device",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "cap-add",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "cap-drop",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "cgroup-parent",
+    "type": "string"
+  },
+  {
+    "name": "cidfile",
+    "type": "string"
+  },
+  {
+    "name": "cpu-period",
+    "type": "number"
+  },
+  {
+    "name": "cpu-quota",
+    "type": "number"
+  },
+  {
+    "name": "cpu-rt-period",
+    "type": "number"
+  },
+  {
+    "name": "cpu-rt-runtime",
+    "type": "number"
+  },
+  {
+    "alias": "c",
+    "name": "cpu-shares",
+    "type": "number"
+  },
+  {
+    "name": "cpus",
+    "type": "number"
+  },
+  {
+    "name": "cpuset-cpus",
+    "type": "string"
+  },
+  {
+    "name": "cpuset-mems",
+    "type": "string"
+  },
+  {
+    "alias": "d",
+    "name": "detach",
+    "type": "boolean"
+  },
+  {
+    "name": "detach-keys",
+    "type": "string"
+  },
+  {
+    "name": "device",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "device-cgroup-rule",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "device-read-bps",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "device-read-iops",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "device-write-bps",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "device-write-iops",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "disable-content-trust",
+    "type": "boolean"
+  },
+  {
+    "name": "dns",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "dns-option",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "dns-search",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "entrypoint",
+    "type": "string"
+  },
+  {
+    "alias": "e",
+    "name": "env",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "env-file",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "expose",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "group-add",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "health-cmd",
+    "type": "string"
+  },
+  {
+    "name": "health-interval",
+    "type": "string"
+  },
+  {
+    "name": "health-retries",
+    "type": "number"
+  },
+  {
+    "name": "health-start-period",
+    "type": "string"
+  },
+  {
+    "name": "health-timeout",
+    "type": "string"
+  },
+  {
+    "name": "help",
+    "type": "boolean"
+  },
+  {
+    "alias": "h",
+    "name": "hostname",
+    "type": "string"
+  },
+  {
+    "name": "init",
+    "type": "boolean"
+  },
+  {
+    "alias": "i",
+    "name": "interactive",
+    "type": "boolean"
+  },
+  {
+    "name": "ip",
+    "type": "string"
+  },
+  {
+    "name": "ip6",
+    "type": "string"
+  },
+  {
+    "name": "ipc",
+    "type": "string"
+  },
+  {
+    "name": "isolation",
+    "type": "string"
+  },
+  {
+    "name": "kernel-memory",
+    "type": "number"
+  },
+  {
+    "alias": "l",
+    "name": "label",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "label-file",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "link",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "link-local-ip",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "log-driver",
+    "type": "string"
+  },
+  {
+    "name": "log-opt",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "mac-address",
+    "type": "string"
+  },
+  {
+    "alias": "m",
+    "name": "memory",
+    "type": "number"
+  },
+  {
+    "name": "memory-reservation",
+    "type": "number"
+  },
+  {
+    "name": "memory-swap",
+    "type": "number"
+  },
+  {
+    "name": "memory-swappiness",
+    "type": "number"
+  },
+  {
+    "name": "mount",
+    "type": "string"
+  },
+  {
+    "name": "name",
+    "type": "string"
+  },
+  {
+    "name": "network",
+    "type": "string"
+  },
+  {
+    "name": "network-alias",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "no-healthcheck",
+    "type": "boolean"
+  },
+  {
+    "name": "oom-kill-disable",
+    "type": "boolean"
+  },
+  {
+    "name": "oom-score-adj",
+    "type": "number"
+  },
+  {
+    "name": "pid",
+    "type": "string"
+  },
+  {
+    "name": "pids-limit",
+    "type": "number"
+  },
+  {
+    "name": "privileged",
+    "type": "boolean"
+  },
+  {
+    "alias": "p",
+    "name": "publish",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "alias": "P",
+    "name": "publish-all",
+    "type": "boolean"
+  },
+  {
+    "name": "read-only",
+    "type": "boolean"
+  },
+  {
+    "name": "restart",
+    "type": "string"
+  },
+  {
+    "name": "rm",
+    "type": "boolean"
+  },
+  {
+    "name": "runtime",
+    "type": "string"
+  },
+  {
+    "name": "security-opt",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "shm-size",
+    "type": "number"
+  },
+  {
+    "name": "sig-proxy",
+    "type": "boolean"
+  },
+  {
+    "name": "stop-signal",
+    "type": "string"
+  },
+  {
+    "name": "stop-timeout",
+    "type": "number"
+  },
+  {
+    "name": "storage-opt",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "sysctl",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "tmpfs",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "alias": "t",
+    "name": "tty",
+    "type": "boolean"
+  },
+  {
+    "name": "ulimit",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "alias": "u",
+    "name": "user",
+    "type": "string"
+  },
+  {
+    "name": "userns",
+    "type": "string"
+  },
+  {
+    "name": "uts",
+    "type": "string"
+  },
+  {
+    "alias": "v",
+    "name": "volume",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "name": "volume-driver",
+    "type": "string"
+  },
+  {
+    "name": "volumes-from",
+    "type": "string",
+    "lazyMultiple": true
+  },
+  {
+    "alias": "w",
+    "name": "workdir",
+    "type": "string"
+  },
+  {
+    "name": "target",
+    "defaultOption": true
+  }
+]
