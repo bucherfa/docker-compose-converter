@@ -15,6 +15,7 @@
   ],
   "author": "Fabian Bucher <git@fabianbucher.de>",
   "license": "GNU GPLv3",
+  "repository": "https://gitlab.com/bucherfa/docker-compose-converter",
   "dependencies": {
     "command-line-args": "^5.1.1",
     "js-yaml": "^3.13.1"

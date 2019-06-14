@@ -51,5 +51,5 @@ docker run -d \
   mariadb
 `;
 const dockercomposeyml = ddc(dockerRunCommands);
-console.log(dockercomposeyml)
+console.log(dockercomposeyml);
 ```
