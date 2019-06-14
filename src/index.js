@@ -142,7 +142,7 @@ function getServiceName(service, names) {
 }
 
 function cleanUp(string) {
-  return removeBackslashes(removeWhitespaces(string)).trim();
+  return removeWhitespaces(removeBackslashes(string)).trim();
 }
 
 function removeWhitespaces(string) {
@@ -150,7 +150,7 @@ function removeWhitespaces(string) {
 }
 
 function removeBackslashes(string) {
-  return string.replace(/\\\//g, "/");
+  return string.replace(/\\/g, '');
 }
 
 module.exports = dcc;
