@@ -2,7 +2,7 @@
 
 Convert docker run/create commands to docker-compose.yml files.
 
-[Online Demo](https://bucherfa.gitlab.io/dcc-web/)
+[Online Demo](https://bucherfa.github.io/dcc-web/)
 
 ## Example
 
