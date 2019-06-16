@@ -48,7 +48,7 @@ function convertToService(c) {
     s.ports = c.publish;
   }
   if (c.network) {
-    s.networks = c.network;
+    s.networks = [ c.network ];
   }
   if (c.restart) {
     s.restart = c.restart;

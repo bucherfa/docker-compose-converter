@@ -1,6 +1,6 @@
 {
   "name": "docker-compose-converter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Convert docker run/create commands to docker-compose.yml files.",
   "main": "src/index.js",
   "keywords": [

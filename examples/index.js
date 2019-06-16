@@ -20,6 +20,7 @@ const examples = [
     -v /path/to/appdata/config:/config \
     -v /path/to/backups:/backups \
     -v /path/to/source:/source \
+    --network dockernet
     --restart unless-stopped \
     linuxserver/duplicati`,
   ''
