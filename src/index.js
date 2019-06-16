@@ -54,7 +54,7 @@ function convertToService(c) {
     s.restart = c.restart;
   }
   if (c._unknown) {
-    s.command = `sh -c "${c._unknown.join(' ')}"`;
+    s.command = `${c._unknown.join(' ')}`;
   }
   if (c.dns) {
     s.dns = c.dns;
