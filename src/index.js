@@ -116,6 +116,9 @@ function convertToService(c) {
   if (c.tty) {
     s.tty = c.tty;
   }
+  if (c.sysctl) {
+    s.sysctls = c.sysctl;
+  }
   return s;
 }
 
